@@ -1,0 +1,420 @@
+
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: MuseoSansCyrl;
+    box-sizing: border-box;
+}
+
+.main{
+    margin: auto;
+
+}
+
+
+/* ------------основной баннер------------ */
+.banner{
+    background: #93BBEA;
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.banner-title, .banner-description{
+    z-index: 200;
+}
+
+.banner-title h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color: #fff;
+
+    margin: 0;
+}
+
+.banner-description p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23.8px;
+    color: #fff;
+    margin: 0;
+    margin-top: 4px;
+}
+
+.banner-btn-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+    margin-top: 40px;
+    margin-bottom: 14px;
+    z-index: 200;
+}
+
+.btn{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    min-width: 160px;
+
+    color: #1A1A1A;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+
+/* ------------иконки------------ */
+.icon-chat{
+    display: inline-block;
+    background-image: url('img/chat.svg');
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 13px;
+}
+
+.icon-phone{
+    display: inline-block;
+    background-image: url('img/phone.svg');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.icon-post{
+    display: inline-block;
+    background-image: url('img/post.svg');
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 11px;
+}
+
+.icon-star{
+    display: inline-block;
+    background-image: url('img/star.svg');
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 16px;
+}
+
+/* ------------картинки баннера------------ */
+
+.bg_img_1{
+    position: absolute;
+    top: 37px;
+    left: 0px;
+    z-index: 100;
+}
+
+.bg_img_2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 100;
+}
+
+
+/* ------------присоединяйтесь------------ */
+
+.join{
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 42px 40px;
+    margin: 82px 102px 80px 102px;
+    border-radius: 40px;
+    box-shadow: 0px 20px 60px 0px #1A1A1A0D;
+    
+
+}
+
+.subtitle{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    margin: 0;
+}
+
+.h3_desc{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.join-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+}
+
+.join-icons{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin: auto;
+    justify-content: flex-end;
+}
+
+.join-icon-container{
+    display: flex;
+    background-color: #F9F9F9;
+    border-radius: 13px;
+    height: 56px;
+    width: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-vk{
+    background-image: url('img/VK.svg');
+    background-position: center;
+    height: 14px;
+    width: 26px;
+}
+
+.icon-inst{
+    background-image: url('img/inst.svg');
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-tt{
+    background-image: url('img/tt.svg');
+    background-position: center;
+    height: 22px;
+    width: 19px;
+}
+
+.icon-twit{
+    background-image: url('img/twit.svg');
+    background-position: center;
+    height: 19px;
+    width: 24px;
+}
+
+.icon-ya{
+    background-image: url('img/ya.svg');
+    background-position: center;
+    height: 36px;
+    width: 36px;
+}
+
+.icon-facebook{
+    background-image: url('img/facebook.svg');
+    background-position: center;
+    height: 24px;
+    width: 11px;
+}
+
+
+/* ------------FAQ------------ */
+
+
+.faq .h3_desc{
+    text-align: center;
+}
+
+.faq-carusel{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.faq-carusel-item{
+    padding: 16px;
+    box-shadow: 0px 0px 30px 0px #0000000D;
+    border-radius: 16px;
+    width: 282px;
+}
+
+.h6_desc{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+
+
+/* ------------справка------------ */
+
+.info{
+    margin: 80px 102px;
+}
+
+.info .h3_desc{
+    text-align: center;
+}
+
+.info-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+.info-item{
+    padding: 20px 24px;
+    box-shadow: 0px 0px 30px 0px #0000000D;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.chevron_right{
+    height: 24px;
+    width: 24px;
+    background-image: url('img/chevron_right.svg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 12px);
+}
+
+.body_small{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    color: #949494;
+}
+
+
+
+
+
+@media (min-width: 1280px) {
+    .main{
+        width: 1280px;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 780px) {
+    .main{
+        width: 780;
+    }
+}
+
+
+
+
+/* User styles */
+@media screen and (min-width: 911px) {
+    .ant-carousel {
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 641px) and (max-width: 910px) {
+    .ant-carousel {
+      max-width: 540px;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .ant-carousel {
+      max-width: 270px;
+    }
+  }
+  
+  .ant-carousel {
+    margin: 50px auto auto;
+    padding-top: 10px;
+    background-color: white;
+  }
+  
+  .ant-carousel-element {
+    width: 282px;
+    text-align: center;
+  }
+  
+  /* General styles */
+  .ant-carousel {
+    width: auto;
+    position: relative;
+  }
+  
+  .ant-carousel-hider {
+    overflow: hidden;
+  }
+  
+  .ant-carousel-list {
+    width: auto;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .ant-carousel-element {
+    display: block;
+    flex: 0 0 auto;
+  }
+  
+  /* Navigation item styles */
+  div.ant-carousel-arrow-left,
+  div.ant-carousel-arrow-right {
+    width: 22px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 32;
+  }
+  
+  div.ant-carousel-arrow-left {
+    left: -40px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-left.png") no-repeat;
+  }
+  
+  div.ant-carousel-arrow-right {
+    right: -40px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-right.png") no-repeat;
+  }
+  
+  div.ant-carousel-arrow-left:hover {
+    opacity: 1.0;
+  }
+  
+  div.ant-carousel-arrow-right:hover {
+    opacity: 1.0;
+  }
+  

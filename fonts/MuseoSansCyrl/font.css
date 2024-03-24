@@ -1,0 +1,100 @@
+@font-face { 
+    font-family: "MuseoSansCyrl";
+    src: url("MuseoSansCyrl100Italic/MuseoSansCyrl100Italic.eot");
+    src: url("MuseoSansCyrl100Italic/MuseoSansCyrl100Italic.eot?#iefix")format("embedded-opentype"),
+    url("MuseoSansCyrl100Italic/MuseoSansCyrl100Italic.woff") format("woff"),
+    url("MuseoSansCyrl100Italic/MuseoSansCyrl100Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face { 
+    font-family: "MuseoSansCyrl";
+    src: url("MuseoSansCyrl300Italic/MuseoSansCyrl300Italic.eot");
+    src: url("MuseoSansCyrl300Italic/MuseoSansCyrl300Italic.eot?#iefix")format("embedded-opentype"),
+    url("MuseoSansCyrl300Italic/MuseoSansCyrl300Italic.woff") format("woff"),
+    url("MuseoSansCyrl300Italic/MuseoSansCyrl300Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face { 
+    font-family: "MuseoSansCyrl";
+    src: url("MuseoSansCyrl500Italic/MuseoSansCyrl500Italic.eot");
+    src: url("MuseoSansCyrl500Italic/MuseoSansCyrl500Italic.eot?#iefix")format("embedded-opentype"),
+    url("MuseoSansCyrl500Italic/MuseoSansCyrl500Italic.woff") format("woff"),
+    url("MuseoSansCyrl500Italic/MuseoSansCyrl500Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face { 
+    font-family: "MuseoSansCyrl";
+    src: url("MuseoSansCyrl700Italic/MuseoSansCyrl700Italic.eot");
+    src: url("MuseoSansCyrl700Italic/MuseoSansCyrl700Italic.eot?#iefix")format("embedded-opentype"),
+    url("MuseoSansCyrl700Italic/MuseoSansCyrl700Italic.woff") format("woff"),
+    url("MuseoSansCyrl700Italic/MuseoSansCyrl700Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face { 
+    font-family: "MuseoSansCyrl";
+    src: url("MuseoSansCyrl900Italic/MuseoSansCyrl900Italic.eot");
+    src: url("MuseoSansCyrl900Italic/MuseoSansCyrl900Italic.eot?#iefix")format("embedded-opentype"),
+    url("MuseoSansCyrl900Italic/MuseoSansCyrl900Italic.woff") format("woff"),
+    url("MuseoSansCyrl900Italic/MuseoSansCyrl900Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+@font-face { 
+    font-family: "MuseoSansCyrl";
+    src: url("MuseoSansCyrl100/MuseoSansCyrl100.eot");
+    src: url("MuseoSansCyrl100/MuseoSansCyrl100.eot?#iefix")format("embedded-opentype"),
+    url("MuseoSansCyrl100/MuseoSansCyrl100.woff") format("woff"),
+    url("MuseoSansCyrl100/MuseoSansCyrl100.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face { 
+    font-family: "MuseoSansCyrl";
+    src: url("MuseoSansCyrl300/MuseoSansCyrl300.eot");
+    src: url("MuseoSansCyrl300/MuseoSansCyrl300.eot?#iefix")format("embedded-opentype"),
+    url("MuseoSansCyrl300/MuseoSansCyrl300.woff") format("woff"),
+    url("MuseoSansCyrl300/MuseoSansCyrl300.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face { 
+    font-family: "MuseoSansCyrl";
+    src: url("MuseoSansCyrl500/MuseoSansCyrl500.eot");
+    src: url("MuseoSansCyrl500/MuseoSansCyrl500.eot?#iefix")format("embedded-opentype"),
+    url("MuseoSansCyrl500/MuseoSansCyrl500.woff") format("woff"),
+    url("MuseoSansCyrl500/MuseoSansCyrl500.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face { 
+    font-family: "MuseoSansCyrl";
+    src: url("MuseoSansCyrl700/MuseoSansCyrl700.eot");
+    src: url("MuseoSansCyrl700/MuseoSansCyrl700.eot?#iefix")format("embedded-opentype"),
+    url("MuseoSansCyrl700/MuseoSansCyrl700.woff") format("woff"),
+    url("MuseoSansCyrl700/MuseoSansCyrl700.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face { 
+    font-family: "MuseoSansCyrl";
+    src: url("MuseoSansCyrl900/MuseoSansCyrl900.eot");
+    src: url("MuseoSansCyrl900/MuseoSansCyrl900.eot?#iefix")format("embedded-opentype"),
+    url("MuseoSansCyrl900/MuseoSansCyrl900.woff") format("woff"),
+    url("MuseoSansCyrl900/MuseoSansCyrl900.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
