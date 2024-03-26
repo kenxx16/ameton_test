@@ -6,6 +6,7 @@ $(document).ready(function(){
 		nav: true,
 		margin: 24,
 		dots: false,
+		navText : ["<span class='chevron-left'></span>","<span class='chevron-right'></span>"],
 		responsive: {
 			700: {
 			  items: 2
