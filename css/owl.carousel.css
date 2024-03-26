@@ -20,8 +20,9 @@
     -moz-backface-visibility: hidden;
     /* fix firefox animation glitch */ }
   .owl-carousel .owl-stage:after {
+    display: none;
     content: ".";
-    display: block;
+    /* display: block; */
     clear: both;
     visibility: hidden;
     line-height: 0;
@@ -187,7 +188,7 @@
 
 
   .owl-stage{
-    display: flex;
+    /* display: flex; */
     position: relative;
 }
 
@@ -204,11 +205,17 @@
 
     position: absolute;
     background-color: #fff !important;
+    
 }
 
 .owl-next{
     right: 0px;
     top: calc(50% - 20px);
+}
+
+.owl-next span, .owl-prev span{
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .owl-prev{
@@ -218,6 +225,24 @@
 
 .owl-prev.disabled, .owl-next.disabled{
   display: none;
+}
+
+.owl-carousel .owl-stage{
+  display: flex; 
+  /* gap: 24px; */
+}
+/* .info-item {
+    display: flex;
+    flex: 1 0 auto;
+    height: 100%;
+} */
+
+.owl-item{
+  opacity: 0;
+}
+
+.owl-item.active{
+  opacity: 1;
 }
 
 @media (max-width: 700px) {

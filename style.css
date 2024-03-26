@@ -263,8 +263,8 @@ body {
     /* width: 282px; */
 
     display: grid;
-    grid-template-columns: auto 104px;
     grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     grid-template-areas:
     "tit image"
     "content image";
@@ -272,20 +272,18 @@ body {
 
 .tit{
     grid-area: tit;
-    padding: 16px;
+    padding: 16px 0 0 16px;
 }
 
 .image{
     grid-area: image;
+    display: flex;
+    margin: auto;
 }
 
 .content{
     grid-area: content;
-    padding: 16px;
-}
-
-.faq-carusel-item-1col{
-    padding: 16px;
+    padding: 0px 0px 16px 16px;
 }
 
 .owl-carousel{
@@ -412,6 +410,72 @@ body {
 
 @media (max-width: 700px) {
 
+    .main{
+        padding: 10px;
+    }
+
+    .banner{
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .banner-btn-row{
+        flex-direction: column;
+    }
+
+    .banner-title h1{
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .banner-description p{
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .btn{
+        font-size: 12px;
+        line-height: 17px;
+        padding: 8px;
+        border-radius: 6px;
+    }
+
+    .bg_img_1, .bg_img_2{
+        width: 50%;
+    }
+
+
+
+    .h3_desc{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    
+    .h6_desc{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .join{
+        margin: 20px 0;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 17px;
+    }
+
+    .join-text{
+        width: 100%;
+        gap: 5px;
+        text-align: center;
+    }
 }
 
 
