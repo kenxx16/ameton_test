@@ -537,8 +537,8 @@ body {
     }
 
     .join-icon-container.art{
-        height: 56px;
-        width: 56px;
+        height: 40px;
+        width: 40px;
     }
 
     
@@ -548,12 +548,17 @@ body {
         margin-bottom: 25px;
     }
 
+    .owl-carousel .owl-item img{
+        width: unset !important;
+    }
+
     .faq{
         padding-bottom: 25px;
     }
 
     .image{
-        width: 50% !important;
+        /* width: 50% !important; */
+        max-height: 100px;
     }
 
     .info{
@@ -646,10 +651,21 @@ body {
 
 @media (max-width: 700px) {
     .btn-chat {
-        width: calc(100% - 128px);
+        width: calc(100% - 96px);
+        padding: unset;
         min-width: unset;
         border-radius: 7px;
     }
+
+    .detail_text p{
+        font-size: 12px;
+    }
+
+    .h5_desc{
+        font-size: 17px;
+    }
+    
+
 }
 
   
